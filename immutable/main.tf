@@ -6,4 +6,8 @@ module "cart" {
   APP_PORT         = 8080
   LB_RULE_PRIORITY = 1
   APP_VERSION      = var.APP_VERSION
+  desired_capacity = var.desired_capacity
+  max_size         = var.max_size
+  min_size         = var.min_size
 }
+

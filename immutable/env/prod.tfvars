@@ -1,14 +1,9 @@
 COMPONENT = "cart"
 ENV       = "prod"
 
-INSTANCES = {
-  SPOT = {
-    instance_count = 2
-    instance_type  = "t3.micro"
-  }
-  ONDEMAND = {
-    instance_count = 0
-    instance_type  = "t3.micro"
-  }
-}
+desired_capacity = 2
+max_size         = 4
+min_size         = 2
+
+
 
