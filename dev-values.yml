@@ -3,3 +3,10 @@ appPort: 8080
 appVersion: 3.0.0
 externalSecret:
   enabled: true
+resources:
+   limits:
+     cpu: 250m
+     memory: 350Mi
+   requests:
+     cpu: 200m
+     memory: 256Mi
